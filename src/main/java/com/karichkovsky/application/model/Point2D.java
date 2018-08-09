@@ -32,10 +32,16 @@ public final class Point2D {
 
         BigDecimal xDistance = new BigDecimal(other.x).subtract(new BigDecimal(this.x));
         BigDecimal yDistance = new BigDecimal(other.y).subtract(new BigDecimal(this.y));
-        return Math.sqrt(xDistance.pow(2).add(yDistance.pow(2)).doubleValue());
+        return Math.sqrt(xDistance.multiply(xDistance).add(yDistance.multiply(yDistance)).doubleValue());
     }
 
     public double getDistanceToCenter() {
         return getDistanceTo(CENTER);
     }
+
+    @Override
+    public String toString() {
+        return "[" + x + ", " + y + ']';
+    }
+
 }
