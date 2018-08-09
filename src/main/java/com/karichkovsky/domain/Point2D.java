@@ -1,4 +1,4 @@
-package com.karichkovsky.application.model;
+package com.karichkovsky.domain;
 
 import java.math.BigDecimal;
 import java.util.Objects;

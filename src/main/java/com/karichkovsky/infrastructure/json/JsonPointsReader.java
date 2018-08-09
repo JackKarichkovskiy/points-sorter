@@ -1,7 +1,7 @@
 package com.karichkovsky.infrastructure.json;
 
 import com.google.gson.Gson;
-import com.karichkovsky.application.model.Point2D;
+import com.karichkovsky.domain.Point2D;
 import com.karichkovsky.application.ports.FilePointsReader;
 import java.io.BufferedReader;
 import java.io.FileReader;

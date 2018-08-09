@@ -1,6 +1,6 @@
 package com.karichkovsky.application.ports;
 
-import com.karichkovsky.application.model.Point2D;
+import com.karichkovsky.domain.Point2D;
 import java.util.List;
 
 /**

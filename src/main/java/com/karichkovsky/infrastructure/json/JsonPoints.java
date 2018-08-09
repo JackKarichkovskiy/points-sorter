@@ -1,6 +1,6 @@
 package com.karichkovsky.infrastructure.json;
 
-import com.karichkovsky.application.model.Point2D;
+import com.karichkovsky.domain.Point2D;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

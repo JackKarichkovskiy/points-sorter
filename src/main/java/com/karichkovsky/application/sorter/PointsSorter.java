@@ -1,13 +1,19 @@
 package com.karichkovsky.application.sorter;
 
-import com.karichkovsky.application.model.Point2D;
+import com.karichkovsky.domain.Point2D;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  *
  * @author karic
  */
-public interface PointsSorter {
+public class PointsSorter {
 
-    List<? extends Point2D> sort(List<? extends Point2D> points);
+    public List<? extends Point2D> sort(List<? extends Point2D> points, Comparator<? super Point2D> comparator) {
+        return points.stream()
+                .sorted(comparator)
+                .collect(Collectors.toList());
+    }
 }
