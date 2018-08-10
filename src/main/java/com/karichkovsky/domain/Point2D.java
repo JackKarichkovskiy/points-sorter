@@ -3,10 +3,6 @@ package com.karichkovsky.domain;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-/**
- *
- * @author karic
- */
 public final class Point2D {
 
     public static final Point2D CENTER = new Point2D(0, 0);

@@ -1,13 +1,9 @@
 package com.karichkovsky.infrastructure.console;
 
 import com.karichkovsky.domain.Point2D;
-import com.karichkovsky.application.ports.PointsPrinter;
+import com.karichkovsky.app.ports.PointsPrinter;
 import java.util.List;
 
-/**
- *
- * @author karic
- */
 public class ConsolePointsPrinter implements PointsPrinter {
 
     @Override

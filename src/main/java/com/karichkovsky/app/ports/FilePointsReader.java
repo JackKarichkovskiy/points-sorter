@@ -1,4 +1,4 @@
-package com.karichkovsky.application.ports;
+package com.karichkovsky.app.ports;
 
 import com.karichkovsky.domain.Point2D;
 import java.io.IOException;

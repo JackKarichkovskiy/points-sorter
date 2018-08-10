@@ -3,10 +3,6 @@ package com.karichkovsky.domain;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-/**
- *
- * @author karic
- */
 public class Point2DTest {
 
     /**

@@ -1,19 +1,15 @@
 package com.karichkovsky;
 
 import com.karichkovsky.domain.Point2D;
-import com.karichkovsky.application.ports.FilePointsReader;
-import com.karichkovsky.application.ports.PointsPrinter;
-import com.karichkovsky.application.sorter.PointsSorter;
+import com.karichkovsky.app.ports.FilePointsReader;
+import com.karichkovsky.app.ports.PointsPrinter;
+import com.karichkovsky.app.sorter.PointsSorter;
 import com.karichkovsky.infrastructure.console.ConsolePointsPrinter;
 import com.karichkovsky.infrastructure.json.JsonPointsReader;
 import java.io.IOException;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- *
- * @author karic
- */
 public class PointsSorterApplication {
 
     private final FilePointsReader reader = new JsonPointsReader();

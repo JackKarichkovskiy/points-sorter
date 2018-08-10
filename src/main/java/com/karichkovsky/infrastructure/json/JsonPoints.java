@@ -5,10 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- *
- * @author karic
- */
 public class JsonPoints {
 
     private int[][] points;
